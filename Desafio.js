@@ -7,19 +7,30 @@ class Usuario {
     }
 
     getFullName(){
-        console.log(this.nombre + this.apellido)
+        return console.log(`${this.nombre}${this.apellido}`)
     }
-    getBooks(){
-        console.log(this.libros)
+    addMascotas(name){
+        this.mascotas.push(name);
     }
-    getMascotas(){
-        console.log(this.mascotas)
+    countMascotas(){
+        return console.log(Number(this.mascotas.length));
     }
-    
+    addBook(name, autor){
+        this.libros.push({"nombre":name,"autor":autor})
+    }
+    getBookNames(){
+        return console.log(this.libros.map(books => books.nombre));
+    }
 }
 
-const P = new Usuario('Samuel', 'Perez', '[El Resplandor]', 'Loro')
+const usuario = new Usuario("Fabian", "Molina", [{nombre: "El señor de los anillos", autor: "J.R.R. Tolkien"},{nombre: "Harry Potter y las Reliquias de la Muerte", autor: "J.K. Rowling"}], ["Buster","Matilda"]);
 
-const G = new Usuario('Joaquin','Lopez','[IT]','Perro,Gato')
+usuario.addMascota("Chess");
 
-const H = new Usuario('Benjamin','Torres','[El señor de los Anillos]','[Hamster, Perro, Loro]')
+usuario.addBook("Dune","Frank Herbert");
+
+usuario.getFullName();
+
+usuario.countMascotas();
+
+usuario.getBookNames();
