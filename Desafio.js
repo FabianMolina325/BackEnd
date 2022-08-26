@@ -7,13 +7,19 @@ class Usuario {
     }
 
     getFullName(){
-        return this.nombre
+        console.log(this.nombre + this.apellido)
     }
     getBooks(){
-        return this.libros
+        console.log(this.libros)
+    }
+    getMascotas(){
+        console.log(this.mascotas)
     }
     
 }
 
-const P = new Usuario('Samuel', 'Perez', 'Resplandor', 'Loro')
-console.log(Usuario.getFullName)
+const P = new Usuario('Samuel', 'Perez', '[El Resplandor]', 'Loro')
+
+const G = new Usuario('Joaquin','Lopez','[IT]','Perro,Gato')
+
+const H = new Usuario('Benjamin','Torres','[El señor de los Anillos]','[Hamster, Perro, Loro]')
