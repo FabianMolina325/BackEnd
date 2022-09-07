@@ -1,0 +1,20 @@
+[
+    {                                                                                                                                                    
+        title: 'Placa de Video ASUS GeForce GTX 1660 TI 6GB GDDR6',                                                                                                                                 
+        price: 116.436,                                                                                                                                     
+        thumbnail: 'https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_28866_Placa_de_Video_ASUS_GeForce_GTX_1660_TI_6GB_GDDR6_TUF_EVO_OC_c3ef28a0-grn.jpg',                                     
+        id: 1                                                                                                                                              
+    },                                                                                                                                                   
+    {                                                                                                                                                     
+        title: 'Placa de Video ASUS GeForce RTX 3090 24GB GDDR6X',                                                                                                                              
+        price: 466.436,                                                                                                                                     
+        thumbnail: 'https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_27832_Placa_de_Video_ASUS_GeForce_RTX_3090_24GB_GDDR6X_ROG_STRIX_GAMING_OC_6c3ef9d1-grn.jpg',                                          
+        id: 2                                                                                                                                              
+    },                                                                                                                                                       
+    {                                                                                                                                                    
+        title: 'Placa de Video ASUS GeForce RTX 3060 Ti 8GB GDDR6',                                                                                                                          
+        price: 219.144,                                                                                                                                     
+        thumbnail: 'https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_32166_Placa_de_Video_ASUS_GeForce_RTX_3060_Ti_8GB_GDDR6_ROG_STRIX_OC_V2_LHR_073b459e-grn.jpg',                                   
+        id: 3                                                                                                                                              
+    }
+]
